@@ -31,10 +31,13 @@ def literal_aoh
 end
 
 def aoh_lookup(aoh, row, key)
+  nest[0][:name] 
   
 end
 
 def aoh_update(aoh, row, key, new_value)
+  nest[0][:name] = "Bruno Silva"
+  nest
   # Update the AoH data at row and key to have the value of new_value
   # Return the updated AoH
 end
